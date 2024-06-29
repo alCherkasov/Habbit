@@ -8,4 +8,4 @@ Habbit - простой трекер привычек
 - JS
 
 ## Демоверсия
-[Смотреть демо](https://github.com/alCherkasov/Habbit)
+[Смотреть демо]([https://github.com/alCherkasov/Habbit](https://alcherkasov.github.io/Habbit/#1))
