@@ -1,0 +1,49 @@
+.habbit {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-right: 15px;
+    margin-bottom: 12px;
+
+    border-radius: 0 10px 10px 0;
+    background-color: var(--color-white);
+
+}
+
+.habbit__day {
+    padding: 19px 40px;
+
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color-black);
+    white-space: nowrap;
+
+    border-right: 1px solid #e7ebfb;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--color-bg-panel);
+
+    @include mobile {
+        padding: 20px 20px;
+
+        font-size: 12px;
+    }
+}
+
+.habbit__title {
+    padding-left: 24px;
+    
+    font-weight: 500;
+    font-size: 16px;
+    color: #23235f;
+
+    @include mobile {
+        padding-left: 15px;
+
+        font-size: 12px;
+    }
+}
+
+.habbit__delete-button {
+    margin-left: auto;
+}
+

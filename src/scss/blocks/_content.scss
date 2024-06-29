@@ -1,0 +1,37 @@
+.content {
+    position: relative;
+    padding: 45px;
+
+    &--close {
+        left: -25%;
+        transition: all 0.2s ease-in;
+    }
+
+    @include mobile {
+        padding: 30px 15px;
+    }
+}
+
+.content__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+    @include mobile {
+        margin-bottom: 15px;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+.content__title-wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+h1.content__title {
+    @include mobile {
+        font-size: 24px;
+    }
+}

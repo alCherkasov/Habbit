@@ -1,0 +1,21 @@
+:root {
+	//Блочная модель
+	--container-width: 812px;
+	--container-padding: 15px;
+
+	//Типографика
+	--font-main: 'Comfortaa', sans-serif;
+	--font-accent:'Comfortaa', sans-serif;
+
+	//Цвета
+	--color-primary: #5051f9;
+	--color-secondary: #edecfe;
+	--color-hover: #6a6afb;
+	--color-bg: #f3f6fd;
+	--color-bg-panel: #fbfaff;
+	--color-white: #fff;
+	--color-black: #000;
+
+	//Переходы и анимации
+	--transition: all 0.2s ease-in;
+}

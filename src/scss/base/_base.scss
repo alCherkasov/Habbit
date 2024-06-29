@@ -1,0 +1,45 @@
+//Импорт шрифтов
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+//Базовые стили
+html {
+	scroll-behavior: smooth;
+	background-color: rgb(39, 39, 39);
+}
+
+body {
+	overflow-x: hidden;
+
+	font-family: var(--font-main);
+	line-height: 1.28;
+	font-weight: 400;
+	font-size: 18px;
+	color: var(--color-black);
+	text-wrap: balance;
+	
+	background-color: var(--color-bg);
+}
+
+img {
+	display: block;
+}
+
+a {
+	color: inherit;
+}
+
+a, button, input, textarea, svg * {
+	transition: var(--transition);
+}
+
+code {
+	background-color: #e9f1f6;
+	padding: 0.2rem;
+	border-radius: 4px;
+}
+
+pre.code {
+	overflow-x: auto;
+	background-color: #e9f1f6;
+	padding: 1rem;
+	border-radius: 4px;
+}

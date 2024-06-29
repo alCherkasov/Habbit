@@ -1,0 +1,65 @@
+.add-habbit {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 12px;
+    padding-right: 8px;
+
+    border-radius: 0 10px 10px 0;
+    background-color: var(--color-white);
+
+}
+
+
+.add-habbit__day {
+    padding: 19px 39px;
+
+    @include mobile {
+        padding: 20px 20px;
+    }
+}
+
+.add-habbit__form {
+    position: relative;
+
+    display: flex;
+    width: 100%;
+}
+
+.add-habbit__input-icon {
+    position: absolute;
+    top: 10px;
+    left: 44px;
+
+    @include mobile {
+        left: 35px;
+    }
+
+    @include mobile-portrait {
+        display: none;
+    }
+}
+
+.add-habbit__input {
+    margin: 0 15px 0 24px;
+    padding: 10px 0 10px 48px;
+
+    &::placeholder {
+        padding: 10px 0 10px 48px;
+    }
+
+    @include mobile {
+        margin: 0 15px 0 15px;
+    }
+
+    @include mobile-portrait {
+        &::placeholder {
+            padding: 10px 0 10px 10px;
+        }
+    }
+}
+
+.add-habbit__done-button {
+    margin-left: auto;
+
+}

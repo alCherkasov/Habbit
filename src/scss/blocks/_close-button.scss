@@ -1,0 +1,13 @@
+.close-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+
+    border-radius: 4px;
+
+    @include hover {
+        background-color: var(--color-secondary);
+    }
+}

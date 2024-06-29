@@ -1,0 +1,7 @@
+.delete-button {
+    @include hover {
+        svg {
+            stroke: var(--color-hover);
+        }
+    }
+}

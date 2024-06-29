@@ -1,0 +1,38 @@
+<div class="cover none">
+    <div class="popup">
+        <h2 class="title">Новая привычка</h2>
+        <p class="popup__icon-label">Иконка</p>
+        <div class="popup__icon-select">
+            <button class="popup__habbit-button habbit-button habbit-button--active" onclick="setIcon(this, 'dumbbell')">
+                <span class="visually-hidden">Sport icon</span>
+                <svg class="icon icon--dumbbell">
+                    <use href="./img/svgsprite/sprite.symbol.svg#dumbbell"></use>
+                </svg>
+            </button>
+            <button class="popup__habbit-button habbit-button" onclick="setIcon(this,'water')">
+                <span class="visually-hidden">Water icon</span>
+                <svg class="icon icon--water">
+                    <use href="./img/svgsprite/sprite.symbol.svg#water"></use>
+                </svg>
+            </button>
+            <button class="popup__habbit-button habbit-button" onclick="setIcon(this, 'food')">
+                <span class="visually-hidden">Food icon</span>
+                <svg class="icon icon--food">
+                    <use href="./img/svgsprite/sprite.symbol.svg#food"></use>
+                </svg>
+            </button>
+        </div>
+        <form class="popup__form">
+            <input class="popup__input-name input" type="text" name="name" placeholder="Название" autocomplete="none">
+            <input class="popup__input-name input" type="text" name="icon" value="dumbbell" hidden>
+            <input class="popup__input-target input" type="number" name="target" placeholder="Цель" autocomplete="none">
+            <button class="popup__done-button done-button" type="submit">Добавить</button>
+        </form>
+        <button class="popup__close-button close-button" onclick="togglePopup()">
+            <span class="visually-hidden">Close popup</span>
+            <svg class="icon icon--close">
+                <use href="./img/svgsprite/sprite.symbol.svg#close"></use>
+            </svg>
+        </button>
+    </div>
+</div>

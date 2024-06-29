@@ -1,0 +1,55 @@
+.icons-wrapper {
+	padding: 30px 0;
+	display: flex;
+	column-gap: 30px;
+}
+
+.icon {
+	fill: transparent;
+	stroke: var(--color-primary);
+	width: 62px;
+	height: 62px;
+}
+
+.icon--add {
+	width: 20px;
+	height: 20px;
+
+	stroke: var(--color-primary);
+}
+
+.icon--dumbbell {
+	width: 25px;
+	height: 25px;
+}
+
+.icon--water {
+	width: 25px;
+	height: 25px;
+}
+
+.icon--food {
+	width: 21px;
+	height: 22px;
+}
+
+.icon--delete {
+	width: 24px;
+	height: 24px;
+
+	stroke: #94a3bd;
+}
+
+.icon--close {
+	width: 14px;
+	height: 14px;
+
+	fill: var(--color-primary);
+}
+
+.icon--delete-habbit {
+	width: 24px;
+	height: 24px;
+
+	stroke: rgb(245, 88, 88);
+}

@@ -1,0 +1,12 @@
+.app {
+    display: grid;
+    grid-template-columns: 123px 1fr;
+    max-width: 1012px;
+
+    background-color: var(--color-bg);
+
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+    }
+}

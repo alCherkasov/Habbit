@@ -1,0 +1,33 @@
+.habbit-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 46px;
+    height: 45px;
+
+    border: 1px solid transparent;
+    border-radius: 14px;
+    background-color: var(--color-white);
+    box-shadow: 0 8px 14px 0 rgba(62, 107, 224, 0.12);
+
+    @include hover {
+        background-color: var(--color-hover);
+
+        svg {
+            stroke: var(--color-white);
+        }
+    }
+
+    &--active {
+        background-color: var(--color-primary);
+
+        svg {
+            stroke: var(--color-white);
+        }
+
+        @include hover {
+            background-color: var(--color-hover);
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.done-button {
+    width: 120px;
+    height: 39px;
+    padding-inline: 16px;
+
+    font-weight: 500;
+    font-size: 13px;
+    color: #5051f9;
+
+    border-radius: 4px;
+    background-color: #edecfe;
+
+    @include hover {
+        color: var(--color-white);
+        background-color: var(--color-hover);
+    }
+}
